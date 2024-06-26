@@ -76,6 +76,10 @@ main {
                 padding: 12px 24px;
                 box-shadow: 0px 8px 12px rgba(148.23, 84.33, 255, 0.20);
                 cursor: pointer;
+
+                &:disabled {
+                    opacity: 0.8;
+                }
     
                 &.btn-primary {
                     background-color: $primary-color;
